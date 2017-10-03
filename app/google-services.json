@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "621855185774",
+    "firebase_url": "https://navdrawer-386d0.firebaseio.com",
+    "project_id": "navdrawer-386d0",
+    "storage_bucket": "navdrawer-386d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621855185774:android:6693e751e4e952f2",
+        "android_client_info": {
+          "package_name": "com.example.mcclaren.navdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621855185774-2kpdktcb4aa8lfm6l7aslr5atcq24j4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mcclaren.navdrawer",
+            "certificate_hash": "5d55b1cb997653bfc014a088395ab4464f7c23fd"
+          }
+        },
+        {
+          "client_id": "621855185774-oaauomtffu8npiupq722i67sbpp2jupq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIBnmP9jzGxvK9i5Ral7Y8xURvg9_S-BU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621855185774-oaauomtffu8npiupq722i67sbpp2jupq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
