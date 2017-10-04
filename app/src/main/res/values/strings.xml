@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">NavDrawer</string>
-
+    <string name="app_name">West Dunbartonshire Council</string>
+    <string name="app_subtitle">Something something</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="webViewMainURL">http://www.west-dunbarton.gov.uk</string>
     <string name="action_settings">Settings</string>
 </resources>

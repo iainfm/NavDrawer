@@ -16,8 +16,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
+import android.widget.ImageView;
 import android.widget.TextView;
-
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity
 
     public static Context mThis;
     public static TextView textView1;
-
+    public static ImageView imageView1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,11 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         mThis = this;
         textView1 = (TextView) findViewById(R.id.textView);
+        imageView1 = (ImageView) findViewById(R.id.imageView);
+        //imageView1.bringToFront();
+        WebView webViewMain = (WebView) findViewById(R.id.webViewMain);
+
+        webViewMain.loadUrl(getString(R.string.webViewMainURL));
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -130,6 +137,7 @@ public class MainActivity extends AppCompatActivity
             String state = extras.getString("extra");
             // Log.d("state", state);
             textView1.setText(state);
+            Toast.makeText(getApplicationContext(),state,Toast.LENGTH_LONG).show();
         }
     }
 
